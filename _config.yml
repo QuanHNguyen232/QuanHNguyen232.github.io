@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Quan H. Nguyen / Site Title"
+title                    : "Quan H. Nguyen / Student"
 title_separator          : "-"
 name                     : &name "Quan H. Nguyen"
 description              : &description "Computer Science @ Gettysburg College"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Quan H. Nguyen"
   avatar           : "profile.png"
-  bio              : "Junior student"
+  bio              : "Junior in CS @ Gettysburg College"
   location         : "US"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/quan-h-nguyen/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "quan-h-nguyen"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
