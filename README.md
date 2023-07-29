@@ -34,3 +34,59 @@ To support this, all changes to the underlying code appear as a closed issue wit
 * Sample: [Building an Academic Website](https://jayrobwilliams.com/posts/2020/06/academic-website/) on jayrobwilliams.com
 * To add new navigation link, add folder `_name`, add page `name.md`, then under `_pages`, add corresponding file
 * [Official instruction](academicpages.github.io)
+
+<details>
+<summary>teaching code base example</summary>
+
+```python
+27 results - 12 files
+
+_config.yml:
+178:   teaching:
+212:   # _teaching
+215:       type: teaching
+
+_data\navigation.yml:
+9:   - title: "Teaching"
+10:     url: /teaching/    
+
+_includes\archive-single.html:
+41:         {% if post.collection == 'teaching' %}
+
+_layouts\single.html:
+37:         {% if page.collection == 'teaching' %}
+
+_pages\cv.md:
+51: Teaching
+53:   <ul>{% for post in site.teaching %}
+
+_pages\markdown.md:
+19:   * _teaching/
+
+_pages\teaching.html:
+3: title: "Teaching"
+4: permalink: /teaching/
+10: {% for post in site.teaching reversed %}
+
+_sass\vendor\font-awesome\_icons.scss:
+193: .#{$fa-css-prefix}-chalkboard-teacher:before { content: fa-content($fa-var-chalkboard-teacher); }
+
+_sass\vendor\font-awesome\_variables.scss:
+207: $fa-var-chalkboard-teacher: \f51c;
+
+_teaching\2014-spring-teaching-1.md:
+2: title: "Teaching experience 1"
+3: collection: teaching
+5: permalink: /teaching/2014-spring-teaching-1
+11: This is a description of a teaching experience. You can use markdown like any other post.
+
+_teaching\2015-spring-teaching-2.md:
+2: title: "Teaching experience 2"
+3: collection: teaching
+5: permalink: /teaching/2015-spring-teaching-1
+11: This is a description of a teaching experience. You can use markdown like any other post.
+
+assets\fonts\fa-solid-900.svg:
+414:     <glyph glyph-name="chalkboard-teacher"
+```
+</details>
