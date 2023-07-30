@@ -18,7 +18,3 @@ redirect_from:
 
 
 
-
-<footer>
-  <p align="center">~ Dreams Come True ~</p>
-</footer>
