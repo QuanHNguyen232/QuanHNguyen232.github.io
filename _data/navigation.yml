@@ -19,8 +19,8 @@ main:
     url: /year-archive/
     
   - title: "CV"
-    url: /cv/ # original
-    # url: /files/Quan_CV_7-15.pdf
+    # url: /cv/ # original
+    url: /files/Quan_CV_7-15.pdf
   
   - title: "Photos"
     url: /photos/
